@@ -31,12 +31,7 @@
                                 
                                 <label for="password" class="text-info">Contraseña:</label><br>
                                 <input type="password" name="txtPassword" pattern="[A-Za-z0-9_-]{1,20}" required placeholder="Contraseña" id="password" class="form-control"> <!------value='".$pas."'---------->
-
-
-                                <!-- pattern="[A-Za-z0-9_-]{1,20}" -->
-                                <!-- <label for="password" class="text-info">Contraseña:</label><br>
-                                <input type="password" name="txtPassword" id="password" class="form-control"> -->
-                                 <!-- ----value='".$pas."'-------- -->
+                                      
                             </div>
                             <div class="form-group">
                                  <input type="submit" name="btn" class="btn btn-info btn-md" value="Ingresar">
